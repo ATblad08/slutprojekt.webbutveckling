@@ -1,0 +1,29 @@
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: hsl(0 0% 90%);
+}
+
+header {
+grid-area: header;
+background-color: #3c8530;
+color: white;
+padding: 2rem;
+text-align: center;
+
+}
+.global_meny{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+margin-top: 10px;
+}
+
+.global_meny a{
+padding: 15px 0;
+color: aqua;
+}
+
