@@ -22,9 +22,15 @@ grid-template-columns: repeat(5, 1fr);
 margin-top: 10px;
 }
 
+.global_meny a:link {color: rgb(245, 58, 211);}
+.global_meny a:visited {color: aqua; }
+.global_meny a:focus {outline: 2px solid orange;}
+.global_meny a:hover {color: rgb(255, 166, 0); text-decoration: underline;}
+.global_meny a:active {color: yellow;}
+
 .global_meny a{
 padding: 15px 0;
-color: aqua;
+text-decoration: none;
 }
 
 
@@ -45,9 +51,7 @@ color: aqua;
     padding-left: 20px;
 
 }
-img{
-    text-align: center;
-}
+
 
 #sida2{
     display: grid;
@@ -55,6 +59,16 @@ img{
     grid-template-rows: repeat(3, 1fr);
     border: solid black 5px;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: rgba(0, 0 ,0 ,0.5);
+}
+
 
 
 
