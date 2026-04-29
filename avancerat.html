@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+<header>
+<h1>Minecraft Enchantments</h1>
+<nav class="global_meny">
+    <a href="index.html">Hem</a>
+    <a href="vapen.html">Vapen</a>
+    <a href="verktyg.html">Verktyg</a>
+    <a href="rustning.html">Rustning</a>
+    <a href="avancerat.html">Information</a>
+</nav>
+</header>
+
+<main id="sida3">
+    <section>
+        <h2>inställningar</h2>
+        <button class="dark-btn" onclick="toggleDarkMode()">Byt till mörkt läge</button>
+    </section>
+
+    <section>
+        <h2>Ett mycket viktigt formulär att svara på!</h2>
+        <p>Svara på dessa om du är en riktig OG</p>
+
+        <Form>
+            <label>Vad hette din första hund?</label>
+            <input type="text" placeholder="hundis..." required>
+
+            <label>vad är det hemliga medelande med järn pickaxe advancment?</label>
+            <input type="text" placeholder="isen't it..." required>
+
+            <p>Är du en Alex eller Steve spelare?</p>
+            <input type="radio" name="player" id="alex"> <label for="alex">Alex</label>
+            <input type="radio" name="player" id="steve"> <label for="steve">Steve</label>
+
+            <input type="checkbox" id="OG" required> <label for="OG">Jag är en OG spelare</label>
+
+            <label>hur många år var du när du första gången dödade enderdraken?</label>
+            <input type="number" min="0" max="200">
+
+            <label>Vilket är ditt favorit mob?</label>
+            <input type="text" placeholder="mob..." required>
+
+            <label>Hur mycket älskar du detta spelet? (0-10)</label>
+            <input type="range" min="0" max="10" required>
+
+            <p>?</p>
+            <input type="radio" name="player" id="alex"> <label for="alex">Alex</label>
+            <input type="radio" name="player" id="steve"> <label for="steve">Steve</label>
+
+            
+
+        </Form>
+    </section>
+
+</main>
+<script src="script.js"></script>
 </body>
 </html>

@@ -111,3 +111,23 @@ footer{
     text-align: left;
     font-size: 0.6rem;
 }
+
+body.dark_mode{
+    background-color: #292929;
+    color: #efefef;
+}
+
+body.dark_mode header{
+    background-color:#083801;
+}
+
+body.dark_mode .global_meny a{
+    color: rgb(0, 222, 222);
+}
+
+body.dark_mode input, body.dark_mode button{
+    background-color: #323232;
+    color: white;
+    border: 1px solid #565656;
+}
+
